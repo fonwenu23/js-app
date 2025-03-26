@@ -1,0 +1,11 @@
+{
+  "name": "js-app",
+  "version": "1.0.0",
+  "scripts": {
+  "start": "parcel chessApp/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
+

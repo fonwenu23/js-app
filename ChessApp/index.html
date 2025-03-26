@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Hello Chess App</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button onclick="greetUser()">Login</button>
+        <p id="greetingMessage"></p>
+        
+        <h1>Hello World App</h1>
+        <input type="text" id="nameInputs" placeholder="Enter your game">
+        <button onclick="game()">Greet</button>
+        <p id="greetingMessages"></p>
+   
+        <h2>Select Your Chess Piece</h2>
+        <select id="chessPiece">
+        <option value="king">King</option>
+        <option value="queen">Queen</option>
+        <option value="rook">Rook</option>
+        <option value="bishop">Bishop</option>
+        <option value="knight">Knight</option>
+        <option value="pawn">Pawn</option>
+    </select>
+    <button onclick="displayChessPiece()">Choose Piece</button>
+    <p id="pieceMessage"></p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
